@@ -1,0 +1,12 @@
+Project Report
+
+Time Spent:
+_______________________________________________________________________________________________________________________
+Date		Time Spent (hours)	Description of Work
+
+2025-01-31	2.0			Started program development, outlined main functions and designed program flow.
+2025-02-01	2.5			Wrote initial program functions and began implementing main functionality.
+2025-02-02	3.0			Developed additional functions and started testing some basic functionality.
+2025-02-03	2.5			Wrote test functions and debugged the program to ensure it works as expected.
+2025-02-04	2.0			Finalized code, wrote more test cases, and conducted overall debugging
+________________________________________________________________________________________________________________________

@@ -1,0 +1,88 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+
+Website Vulnerability Scanner
+
+2. What real-world problem will your program address or help to solve?
+
+This program will help identify common security weaknesses in websites 
+by scanning for vulnerabilities such as missing security headers, open 
+ports, weak SSL configurations, and outdated server software. It will 
+provide insights into potential risks that need to be addressed to improve 
+website security.
+
+3. What will you learn from developing this program?
+
+
+Understanding website security headers and their importance.
+
+How to perform basic port scanning using Python.
+
+How to analyze SSL/TLS configurations for weaknesses.
+
+Using Python libraries to interact with web servers.
+
+Writing and running test cases with pytest.
+
+
+4. What Python modules will your program use?
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+
+requests (for making HTTP requests)
+
+socket (for checking open ports)
+
+ssl (for analyzing SSL certificates)
+
+bs4 (BeautifulSoup for parsing HTML when necessary)
+
+pytest (for testing functions)
+
+
+5. List the names of functions you will need?
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+
+check_headers(url): Checks the security headers of a given website.
+
+port_scan(domain): Scans common ports to detect open ones.
+
+ssl_check(domain): Evaluates SSL/TLS security settings.
+
+get_server_info(url): Retrieves and analyzes the server details.
+
+run_scan(url): Combines all the above functions to perform a full security scan on a website.
+
+
+
+6. List the names of the test functions you will write.
+
+
+test_check_headers(): Tests if the function correctly identifies security headers.
+
+test_port_scan(): Tests the port scanning function with a predefined test server.
+
+test_ssl_check(): Tests if SSL analysis returns expected results for secure and insecure sites.
