@@ -90,10 +90,10 @@ def get_server_info(url):
     
 def run_scan(url):
     """Performs a full security scan on a website."""
-
+```
 
 ✅ Test Functions
-
+```python
 def test_check_headers():
     """Tests if the function correctly identifies security headers."""
     
@@ -102,8 +102,9 @@ def test_port_scan():
     
 def test_ssl_check():
     """Tests if SSL analysis returns expected results."""
+```
 
-🔧 How to Run the Scanner
+### 🔧 **How to Run the Scanner**
 
 1. **Clone this repository** to your local machine:  
    ```bash
@@ -119,5 +120,5 @@ def test_ssl_check():
 
 5. **Review the security insights provided.**
 
-📬 Contact
+### 📬 **Contact**
 If you have any questions or suggestions, feel free to reach out! 😊
